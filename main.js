@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import fsn from 'fs'
 import console from "console";
 import path from 'path'
-const basePath = 'E:\\javascript\\ex-15 clear the clutter'
+const basePath = 'the directory of the folder you want to run this in'
 console.log(fs);
 
 let file = await fs.readdir(basePath);
@@ -22,4 +22,5 @@ for (const element of file) {
        
     }
 }
+
 
